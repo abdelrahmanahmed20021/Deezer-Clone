@@ -1,8 +1,11 @@
-import "./style.css";
-import "./main.css";
+import "./style.scss";
+import "./main.scss";
 import { Aside } from "./Aside.js";
+import { List } from "./List";
 
 document.querySelector("#app").innerHTML = `
- ${Aside()}
-
+ <div class="main">
+  ${Aside()}
+  ${List()}
+ </div>
 `;
