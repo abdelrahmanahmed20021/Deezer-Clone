@@ -1,4 +1,4 @@
-import Logo from "./public/Logo.png";
+import Logo from "./src/Logo.png";
 
 export const Aside = () => {
   return `

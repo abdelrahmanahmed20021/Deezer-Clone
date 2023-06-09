@@ -103,3 +103,40 @@ meter {
 :where(dialog:modal) {
   all: revert;
 }
+
+/* Enable smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Enable smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 5px; /* Adjust the width to your preference */
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+/* Scroll snap points */
+.scroll-container {
+  scroll-snap-type: y mandatory;
+}
+
+*::-webkit-scrollbar {
+  width: 3px !important;
+  height: 3px !important;
+}
